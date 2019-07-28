@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Responsive website template for education</title>
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">    
+    <link rel="shortcut icon" href="favicon.ico">  
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' rel='stylesheet' type='text/css'>  
+    <!-- FontAwesome JS-->
+    <script defer src="https://use.fontawesome.com/releases/v5.8.1/js/all.js" integrity="sha384-g5uSoOSBd7KkhAMlnQILrecXvzst9TdC09/VM+pjDTCM+1il8RHz5fKANTFFb+gQ" crossorigin="anonymous"></script>  
+    <!-- Global CSS -->
+    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">   
+    <!-- Plugins CSS -->    
+    <link rel="stylesheet" href="assets/plugins/flexslider/flexslider.css">
+    <!-- Theme CSS -->  
+    <link id="theme-style" rel="stylesheet" href="assets/css/theme-1.css">
+    
+</head> 
+
+<body>
+    <div class="wrapper">
+        <!-- ******HEADER****** --> 
+        <header class="header">  
+            <div class="top-bar">
+                <div class="container">     
+	                <div class="row">   
+	                    <ul class="social-icons col-md-6 col-12 d-none d-md-block">
+	                        <li><a href="faq.html#" ><i class="fab fa-twitter"></i></a></li>
+	                        <li><a href="faq.html#" ><i class="fab fa-facebook-f"></i></a></li>
+	                        <li><a href="faq.html#" ><i class="fab fa-youtube"></i></a></li>
+	                        <li><a href="faq.html#" ><i class="fab fa-linkedin-in"></i></a></li>
+	                        <li><a href="faq.html#" ><i class="fab fa-google-plus-g"></i></a></li>         
+	                        <li class="row-end"><a href="faq.html#" ><i class="fas fa-rss"></i></a></li>             
+	                    </ul><!--//social-icons-->
+	                    <form class="col-md-6 col-12 search-form" role="search">
+	                        <div class="form-group">
+	                            <input type="text" class="form-control" placeholder="Search the site...">
+	                        </div>
+	                        <button type="submit" class="btn btn-theme">Go</button>
+	                    </form>    
+	                </div><!--//row-->     
+                </div>      
+            </div><!--//to-bar-->
+            <div class="header-main container">
+	            <div class="row">
+	                <h1 class="logo col-md-4 col-12">
+	                    <a href="index.html"><img id="logo" src="assets/images/logo.png" alt="Logo"></a>
+	                </h1><!--//logo-->           
+	                <div class="info col-md-8 col-12">
+	                    <ul class="menu-top float-right d-none d-md-block">
+	                        <li class="divider"><a href="index.html">Home</a></li>
+	                        <li class="divider"><a href="faq.html">FAQ</a></li>
+	                        <li><a href="contact.html">Contact</a></li>
+	                    </ul><!--//menu-top-->
+	                    <br />
+	                    <div class="contact float-right">
+	                        <p class="phone"><i class="fas fa-phone"></i>Call us today 0800 123 4567</p> 
+	                        <p class="email"><i class="fas fa-envelope"></i><a href="faq.html#">enquires@website.com</a></p>
+	                    </div><!--//contact-->
+	                </div><!--//info-->
+	            </div><!--//row-->
+            </div><!--//header-main-->
+        </header><!--//header-->
+        
+        <!-- ******NAV****** -->
+        <div class="main-nav-wrapper">
+            <div class="container">
+	            <nav class="main-nav navbar navbar-expand-md" role="navigation">    
+	                <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbar-collapse">
+	                    <span class="sr-only">Toggle navigation</span>
+	                    <span class="icon-bar"></span>
+	                    <span class="icon-bar"></span>
+	                    <span class="icon-bar"></span>
+	                </button><!--//nav-toggle-->
+	                          
+	                <div class="navbar-collapse collapse" id="navbar-collapse">
+	                    <ul class="nav navbar-nav">
+	                        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+	                        <li class="nav-item dropdown">
+	                            <a class="nav-link dropdown-toggle" href="faq.html#" id="navbarDropdown-1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Courses <i class="fas fa-angle-down"></i></a>
+	                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+	                                <a class="dropdown-item" href="courses.html">Course List</a>
+	                                <a class="dropdown-item" href="course-single.html">Single Course (with image)</a>
+	                                <a class="dropdown-item" href="course-single-2.html">Single Course (with video)</a>                
+	                            </div><!--//dropdown-menu-->
+	                        </li>
+	                        <li class="nav-item dropdown">
+	                            <a class="nav-link dropdown-toggle" href="faq.html#" id="navbarDropdown-2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">News <i class="fas fa-angle-down"></i></a>
+	                            <div class="dropdown-menu" aria-labelledby="navbarDropdown-2">
+	                                <a class="dropdown-item" href="news.html">News List</a>
+	                                <a class="dropdown-item" href="news-single.html">Single News (with image)</a>   
+	                                <a class="dropdown-item" href="news-single-2.html">Single News (with video)</a>         
+	                            </div>
+	                        </li>
+	                        <li class="nav-item"><a class="nav-link" href="events.html">Events</a></li>
+	                        <li class="nav-item dropdown">
+	                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false" href="faq.html#">Pages <i class="fas fa-angle-down"></i></a>
+	                            <div class="dropdown-menu">
+	                                <a class="dropdown-item" href="about.html">About</a>
+	                                <a class="dropdown-item" href="team.html">Leadership Team</a>
+	                                <a class="dropdown-item" href="jobs.html">Jobs</a>
+	                                <a class="dropdown-item" href="job-single.html">Single Job</a>
+	                                <a class="dropdown-item" href="gallery.html">Gallery (3 columns)</a>
+	                                <a class="dropdown-item" href="gallery-2.html">Gallery (4 columns)</a>
+	                                <a class="dropdown-item" href="gallery-3.html">Gallery (2 columns)</a>
+	                                <a class="dropdown-item" href="gallery-4.html">Gallery (with sidebar)</a>
+	                                <a class="dropdown-item" href="gallery-album.html">Single Gallery</a>
+	                                <a class="dropdown-item" href="gallery-album-2.html">Single Gallery (with sidebar)</a>
+	                                <a class="dropdown-item" href="faq.html">FAQ</a>                                
+	                                <a class="dropdown-item" href="privacy.html">Privacy Policy</a> 
+	                                <a class="dropdown-item" href="terms-and-conditions.html">Terms & Conditions</a>                   
+	                            </div><!--//dropdown-menu-->
+	                        </li><!--//dropdown-->
+	                        
+	                        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+	                    </ul><!--//nav-->
+	                </div><!--//navabr-collapse-->
+	            
+		        </nav><!--//main-nav-->
+	        </div><!--//container-->
+        </div><!--//main-nav-container-->
+    
+        <!-- ******CONTENT****** --> 
+        <div class="content container">
+            <div class="page-wrapper">
+                <header class="page-heading clearfix">
+                    <h1 class="heading-title float-left">Frequently Asked Questions</h1>
+                    <div class="breadcrumbs float-right">
+                        <ul class="breadcrumbs-list">
+                            <li class="breadcrumbs-label">You are here:</li>
+                            <li><a href="index.html">Home</a><i class="fas fa-angle-right"></i></li>
+                            <li class="current">FAQ</li>
+                        </ul>
+                    </div><!--//breadcrumbs-->
+                </header> 
+                <div class="page-content">
+                    <div class="row page-row">
+                        <div class="faq-wrapper col-lg-8 col-md-7 col-12">                         
+                            <div id="accordion" class="accordion">
+                                <div class="card">
+                                    <div class="card-header">
+                                        <h4 class="card-title">
+                                            <a data-toggle="collapse" data-parent="#accordion" href="faq.html#collapse-1" class="card-toggle" >
+	                                        <i class="fas fa-plus-square"></i>
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit?
+                                            </a>
+                                        </h4>
+                                    </div><!--//pane-heading-->
+                                    <div id="collapse-1" class="collapse">
+                                        <div class="card-body">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae lacinia nunc. Proin egestas imperdiet ante non fermentum. Duis sollicitudin lacinia massa ac sagittis. Pellentesque et elit erat. Sed quis sem consectetur, interdum nisi vel, eleifend leo. Quisque nunc libero, porta vel varius eget, dapibus in nisl. Cras fringilla eu sem a ultrices. Proin sit amet nunc eget nisl fringilla iaculis sed eu nulla. Ut malesuada, risus nec eleifend consequat, quam nulla sodales felis, sit amet iaculis leo leo egestas sapien. Duis tristique diam in lectus tempor, nec mattis ligula consequat. Aliquam eget mauris sit amet dui bibendum iaculis. Proin eu justo ut massa vulputate eleifend. Praesent mattis lorem orci, ac interdum sapien pretium sit amet.
+                                        </div><!--//card-body-->
+                                    </div><!--//panel-colapse-->
+                                </div><!--//panel-->
+                                <div class="card">
+                                    <div class="card-header">
+                                        <h4 class="card-title">
+                                            <a data-toggle="collapse" data-parent="#accordion" class="collapsed card-toggle" href="faq.html#collapse-2" >
+	                                        <i class="fas fa-plus-square"></i>
+                                            Donec sollicitudin, mauris ut sollicitudin porta?
+                                            </a>
+                                        </h4>
+                                    </div><!--//pane-heading-->
+                                    <div id="collapse-2" class="collapse">
+                                        <div class="card-body">
+                                        Donec sollicitudin, mauris ut sollicitudin porta, nisi felis varius libero, quis vulputate dolor odio ac elit. Donec gravida, nisi at ornare pulvinar, nisl neque rhoncus arcu, vel malesuada neque magna et metus. Aenean lacinia ipsum consequat hendrerit condimentum. Vivamus quis nisi quis nisi dictum viverra. Cras dignissim eros at urna hendrerit interdum. In dictum, ligula laoreet consequat dignissim, velit sapien lacinia nunc, eleifend hendrerit massa nisl sed libero. Donec nulla dolor, pretium id ornare eget, adipiscing sit amet elit. Cras pharetra porta tincidunt. Nam ut convallis magna, vel iaculis lectus. Vivamus auctor a metus non semper. Ut ac ornare leo.
+                                        </div><!--//card-body-->
+                                    </div><!--//panel-colapse-->
+                                </div><!--//panel-->
+                                <div class="card">
+                                    <div class="card-header">
+                                        <h4 class="card-title">
+                                            <a data-toggle="collapse" data-parent="#accordion" class="collapsed card-toggle" href="faq.html#collapse-3" >
+	                                        <i class="fas fa-plus-square"></i>
+                                            Nullam eleifend neque eu egestas ultrices?
+                                            </a>
+                                        </h4>
+                                    </div><!--//pane-heading-->
+                                    <div id="collapse-3" class="collapse">
+                                        <div class="card-body">
+                                        Nullam eleifend neque eu egestas ultrices. Duis sit amet nibh id metus ultrices porta. Sed elementum, ipsum sit amet lacinia facilisis, lectus elit scelerisque lectus, vel blandit odio arcu et diam. Etiam consequat rutrum porta. Sed sollicitudin dictum tortor quis vestibulum. Curabitur vitae est porttitor, convallis mi iaculis, venenatis neque. Duis et nulla et lorem commodo dictum. Praesent blandit est eget adipiscing rhoncus.
+                                        </div><!--//card-body-->
+                                    </div><!--//panel-colapse-->
+                                </div><!--//panel-->
+                                <div class="card">
+                                    <div class="card-header">
+                                        <h4 class="card-title">
+                                            <a data-toggle="collapse" data-parent="#accordion" class="collapsed card-toggle" href="faq.html#collapse-4" >
+	                                        <i class="fas fa-plus-square"></i>
+                                            Suspendisse mollis neque augue?
+                                            </a>
+                                        </h4>
+                                    </div><!--//pane-heading-->
+                                    <div id="collapse-4" class="collapse">
+                                        <div class="card-body">
+                                        Aenean commodo, nunc in feugiat dictum, nibh nibh laoreet lectus, nec posuere velit nulla a ligula. Nullam non odio laoreet, rhoncus nibh eget, sollicitudin lorem. Nullam posuere semper magna vitae suscipit. Mauris vel elit eget elit facilisis euismod. Nunc sit amet purus pellentesque, dapibus enim non, tempus arcu. Etiam ornare egestas enim ac accumsan. Maecenas viverra tortor vitae suscipit volutpat. In gravida vehicula consequat. Vivamus ac suscipit tortor.
+                                        </div><!--//card-body-->
+                                    </div><!--//panel-colapse-->
+                                </div><!--//panel-->
+                                <div class="card">
+                                    <div class="card-header">
+                                        <h4 class="card-title">
+                                            <a data-toggle="collapse" data-parent="#accordion" class="collapsed card-toggle" href="faq.html#collapse-5" >
+	                                        <i class="fas fa-plus-square"></i>
+                                            Fusce rhoncus, arcu eget elementum pretium sem purus faucibus erat?
+                                            </a>
+                                        </h4>
+                                    </div><!--//pane-heading-->
+                                    <div id="collapse-5" class="collapse">
+                                        <div class="card-body">
+                                        Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam sodales odio et risus fringilla, quis fermentum tellus mollis. Sed massa libero, placerat nec eros a, ornare ultrices massa. Phasellus interdum, felis a euismod consequat, tellus odio iaculis quam, ut placerat justo erat ac lacus. Ut volutpat eros quis sagittis rutrum. Vestibulum id est eu elit malesuada facilisis. Ut tempor consequat magna id consectetur.
+                                        </div><!--//card-body-->
+                                    </div><!--//panel-colapse-->
+                                </div><!--//panel-->
+                                <div class="card">
+                                    <div class="card-header">
+                                        <h4 class="card-title">
+                                            <a data-toggle="collapse" data-parent="#accordion" class="collapsed card-toggle" href="faq.html#collapse-6" >
+	                                        <i class="fas fa-plus-square"></i>
+                                            Integer tempor neque vitae dictum ultrices?
+                                            </a>
+                                        </h4>
+                                    </div><!--//pane-heading-->
+                                    <div id="collapse-6" class="collapse">
+                                        <div class="card-body">
+                                        Vestibulum dignissim mattis tellus, at bibendum nibh sollicitudin ut. Nam vitae lorem vel odio elementum viverra ut et dolor. Mauris vitae diam ultrices, viverra est eu, egestas mi. Aenean sed quam id lectus porta scelerisque. Nulla at ultricies lacus. Morbi ultrices elit eget vulputate sagittis. Curabitur porta nibh mattis neque suscipit commodo. Sed placerat vestibulum lacus sit amet varius. Integer tempor neque vitae dictum ultrices. Fusce ac ligula nisi. Nullam vulputate diam vitae odio venenatis malesuada. Sed libero risus, placerat ut urna sed, bibendum vulputate lacus.
+                                        </div><!--//card-body-->
+                                    </div><!--//panel-colapse-->
+                                </div><!--//panel-->
+                                <div class="card">
+                                    <div class="card-header">
+                                        <h4 class="card-title">
+                                            <a data-toggle="collapse" data-parent="#accordion" class="collapsed card-toggle" href="faq.html#collapse-7">
+	                                        <i class="fas fa-plus-square"></i>
+                                            Pellentesque habitant morbi tristique?
+                                            </a>
+                                        </h4>
+                                    </div><!--//pane-heading-->
+                                    <div id="collapse-7" class="collapse">
+                                        <div class="card-body">
+                                        Mauris eu faucibus sem, ac pharetra justo. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur blandit euismod ipsum, ac commodo eros tincidunt et. Aenean tincidunt vestibulum adipiscing. Ut eu enim velit. Ut lectus leo, interdum sodales nibh nec, dictum pulvinar nisl. In consequat fringilla turpis id porta. Cras eget lacus ac orci facilisis aliquam. Fusce a lobortis purus. Integer sed odio et ipsum interdum volutpat at nec nisl. Sed pulvinar ante orci, id tristique sapien cursus et. Nullam ut augue et magna ornare aliquam ut vulputate dui. Vivamus fringilla eu ipsum ut mattis. Nulla a varius velit. Phasellus at lectus ut felis posuere lacinia in id purus.
+                                        </div><!--//card-body-->
+                                    </div><!--//panel-colapse-->
+                                </div><!--//panel-->
+                                <div class="card">
+                                    <div class="card-header">
+                                        <h4 class="card-title">
+                                            <a data-toggle="collapse" data-parent="#accordion" class="collapsed card-toggle" href="faq.html#collapse-8">
+	                                        <i class="fas fa-plus-square"></i>
+                                            Aenean tempus pulvinar tempor?
+                                            </a>
+                                        </h4>
+                                    </div><!--//pane-heading-->
+                                    <div id="collapse-8" class="collapse">
+                                        <div class="card-body">
+                                        Mauris eu faucibus sem, ac pharetra justo. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur blandit euismod ipsum, ac commodo eros tincidunt et. Aenean tincidunt vestibulum adipiscing. Ut eu enim velit. Ut lectus leo, interdum sodales nibh nec, dictum pulvinar nisl. In consequat fringilla turpis id porta. Cras eget lacus ac orci facilisis aliquam. Fusce a lobortis purus. Integer sed odio et ipsum interdum volutpat at nec nisl. Sed pulvinar ante orci, id tristique sapien cursus et. Nullam ut augue et magna ornare aliquam ut vulputate dui. Vivamus fringilla eu ipsum ut mattis. Nulla a varius velit. Phasellus at lectus ut felis posuere lacinia in id purus.
+                                        </div><!--//card-body-->
+                                    </div><!--//panel-colapse-->
+                                </div><!--//panel-->
+                                <div class="card">
+                                    <div class="card-header">
+                                        <h4 class="card-title">
+                                            <a data-toggle="collapse" data-parent="#accordion" class="collapsed card-toggle"  href="faq.html#collapse-9" >
+	                                        <i class="fas fa-plus-square"></i>
+                                            Quisque quam odio mattis in sem id?
+                                            </a>
+                                        </h4>
+                                    </div><!--//pane-heading-->
+                                    <div id="collapse-9" class="collapse">
+                                        <div class="card-body">
+                                        Mauris eu faucibus sem, ac pharetra justo. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur blandit euismod ipsum, ac commodo eros tincidunt et. Aenean tincidunt vestibulum adipiscing. Ut eu enim velit. Ut lectus leo, interdum sodales nibh nec, dictum pulvinar nisl. In consequat fringilla turpis id porta. Cras eget lacus ac orci facilisis aliquam. Fusce a lobortis purus. Integer sed odio et ipsum interdum volutpat at nec nisl. Sed pulvinar ante orci, id tristique sapien cursus et. Nullam ut augue et magna ornare aliquam ut vulputate dui. Vivamus fringilla eu ipsum ut mattis. Nulla a varius velit. Phasellus at lectus ut felis posuere lacinia in id purus.
+                                        </div><!--//card-body-->
+                                    </div><!--//panel-colapse-->
+                                </div><!--//panel-->
+                            </div><!--//panel-group-->                                                
+                        </div><!--//faq-wrapper-->
+                        <aside class="page-sidebar  col-lg-3 offset-lg-1 col-md-4 offset-md-1">                    
+                            <section class="widget has-divider">
+                                <h3 class="title">Why College Green Online</h3>
+                                <p>Donec pulvinar arcu lacus, vel aliquam libero scelerisque a. Cras mi tellus, vulputate eu eleifend at, consectetur fringilla lacus. Nulla ut purus.</p>
+                                <a class="btn btn-theme" href="faq.html#"><i class="fas fa-download"></i>Download prospectus</a>
+                            </section><!--//widget-->
+                        </aside>
+                    </div><!--//page-row-->
+                </div><!--//page-content-->
+            </div><!--//page--> 
+        </div><!--//content-->
+    </div><!--//wrapper-->
+
+    <!-- ******FOOTER****** --> 
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="container">
+                <div class="row">
+                <div class="footer-col col-lg-3 col-md-4 col-12 about">
+                    <div class="footer-col-inner">
+                        <h3>About</h3>
+                        <ul>
+                            <li><a href="about.html"><i class="fas fa-caret-right"></i>About us</a></li>
+                            <li><a href="contact.html"><i class="fas fa-caret-right"></i>Contact us</a></li>
+                            <li><a href="privacy.html"><i class="fas fa-caret-right"></i>Privacy policy</a></li>
+                            <li><a href="terms-and-conditions.html"><i class="fas fa-caret-right"></i>Terms & Conditions</a></li>
+                        </ul>
+                    </div><!--//footer-col-inner-->
+                </div><!--//foooter-col-->
+                <div class="footer-col col-lg-6 col-md-8 col-12 newsletter">
+                    <div class="footer-col-inner">
+                        <h3>Join our mailing list</h3>
+                        <p>Subscribe to get our weekly newsletter delivered directly to your inbox</p>
+                        <form class="subscribe-form">
+                            <div class="form-group">
+                                <input type="email" class="form-control" placeholder="Enter your email" />
+                            </div>
+                            <input class="btn btn-theme btn-subscribe" type="submit" value="Subscribe">
+                        </form>
+                        
+                    </div><!--//footer-col-inner-->
+                </div><!--//foooter-col--> 
+                <div class="footer-col col-lg-3 col-12 contact">
+                    <div class="footer-col-inner">
+                        <h3>Contact us</h3>
+                        <div class="row">
+                            <p class="adr clearfix col-lg-12 col-md-4 col-12">
+                                <i class="fas fa-map-marker-alt float-left"></i>        
+                                <span class="adr-group float-left">       
+                                    <span class="street-address">College Green</span><br>
+                                    <span class="region">56 College Green Road</span><br>
+                                    <span class="postal-code">BS16 AP18</span><br>
+                                    <span class="country-name">UK</span>
+                                </span>
+                            </p>
+                            <p class="tel col-lg-12 col-md-4 col-12"><i class="fas fa-phone"></i>0800 123 4567</p>
+                            <p class="email col-lg-12 col-md-4 col-12"><i class="fas fa-envelope"></i><a href="faq.html#">enquires@website.com</a></p>  
+                        </div> 
+                    </div><!--//footer-col-inner-->            
+                </div><!--//foooter-col-->   
+                </div>   
+            </div>        
+        </div><!--//footer-content-->
+        <div class="bottom-bar">
+            <div class="container">
+                <div class="row">
+                    <small class="copyright col-lg-6 col-12">Template Copyright @ <a href="faq.html#">3rd Wave Media</a></small>
+                    <ul class="social float-right col-lg-6 col-12">
+                        <li><a href="faq.html#" ><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="faq.html#" ><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="faq.html#" ><i class="fab fa-youtube"></i></a></li>
+                        <li><a href="faq.html#" ><i class="fab fa-linkedin-in"></i></a></li>
+                        <li><a href="faq.html#" ><i class="fab fa-google-plus-g"></i></a></li>
+                        <li><a href="faq.html#" ><i class="fab fa-pinterest"></i></a></li>
+                        <li><a href="faq.html#" ><i class="fab fa-skype"></i></a></li> 
+                        <li class="row-end"><a href="faq.html#" ><i class="fas fa-rss"></i></a></li>
+                    </ul><!--//social-->
+                </div><!--//row-->
+            </div><!--//container-->
+        </div><!--//bottom-bar-->
+    </footer><!--//footer-->
+    
+    <!-- *****CONFIGURE STYLE****** -->  
+    <div class="config-wrapper d-none d-md-block">
+        <div class="config-wrapper-inner">
+            <a id="config-trigger" class="config-trigger" href="faq.html#"><i class="fas fa-cog mx-auto"></i></a>
+            <div id="config-panel" class="config-panel">
+                <p>Choose Colour</p>
+                <ul id="color-options" class="list-unstyled list-inline">
+                    <li class="list-inline-item default active" ><a data-style="assets/css/theme-1.css" data-logo="assets/images/logo.png" href="faq.html#"></a></li>
+                    <li class="list-inline-item green"><a data-style="assets/css/theme-2.css" data-logo="assets/images/logo-green.png" href="faq.html#"></a></li>
+                    <li class="list-inline-item purple"><a data-style="assets/css/theme-3.css" data-logo="assets/images/logo-purple.png" href="faq.html#"></a></li>
+                    <li class="list-inline-item red"><a data-style="assets/css/theme-4.css" data-logo="assets/images/logo-red.png" href="faq.html#"></a></li>
+                </ul><!--//color-options-->
+                <a id="config-close" class="close" href="faq.html#"><i class="fas fa-times-circle"></i></a>
+            </div><!--//configure-panel-->
+        </div><!--//config-wrapper-inner-->
+    </div><!--//config-wrapper-->
+    
+    <!-- Javascript -->          
+    <script type="text/javascript" src="assets/plugins/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/popper.min.js"></script> 
+    <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script> 
+    <script type="text/javascript" src="assets/plugins/back-to-top.js"></script>
+    <script type="text/javascript" src="assets/plugins/flexslider/jquery.flexslider-min.js"></script>
+    <script type="text/javascript" src="assets/plugins/jflickrfeed/jflickrfeed.min.js"></script> 
+    <script type="text/javascript" src="assets/js/main.js"></script>       
+    
+    <!-- Theme Switcher (REMOVE ON YOUR PRODUCTION SITE) -->
+    <script type="text/javascript" src="assets/js/demo/theme-switcher.js"></script>         
+    
+</body>
+</html> 
+
