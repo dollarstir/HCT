@@ -171,14 +171,7 @@
                                               <p class="text-center"><a href="courses.html#">Spanish</a></p>
                                           </div><!--//item-->
                                           <div class="clearfix visible-xs"></div>
-                                          <div class="item col-lg-3 col-6">
-                                              <img class="img-fluid" src="assets/images/courses/course-thumb-3.jpg"  alt="" />
-                                              <p class="text-center"><a href="courses.html#">Digital Marketing</a></p>
-                                          </div><!--//item-->
-                                          <div class="item col-lg-3 col-6">
-                                              <img class="img-fluid" src="assets/images/courses/course-thumb-4.jpg"  alt="" />
-                                              <p class="text-center"><a href="courses.html#">Accounting</a></p>
-                                          </div><!--//item-->
+                                          
                                       </div><!--//row-->
                                   </div>
                                   <div class="tab-pane" id="tab2">
