@@ -1,3 +1,7 @@
+
+<?php
+include 'core.php';
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -162,14 +166,12 @@
                                 <div class="tab-content">
                                   <div class="tab-pane active" id="tab1">
                                       <div class="row">
-                                          <div class="item col-lg-3 col-6">
-                                              <img class="img-fluid" src="assets/images/courses/course-thumb-1.jpg"  alt="" />
-                                              <p class="text-center"><a href="courses.html#">Web Design</a></p>
-                                          </div><!--//item-->
-                                          <div class="item col-lg-3 col-6">
-                                              <img class="img-fluid" src="assets/images/courses/course-thumb-2.jpg"  alt="" />
-                                              <p class="text-center"><a href="courses.html#">Spanish</a></p>
-                                          </div><!--//item-->
+                                          <!--//item-->
+
+                                          <?php
+                                            echo viewcourses();
+                                          ?>
+                                          <!--//item-->
                                           <div class="clearfix visible-xs"></div>
                                           
                                       </div><!--//row-->
