@@ -220,9 +220,8 @@ include 'core.php';
                                   </div>
                                 </div>
                             </div><!--//featured-courses-->
-                            <p class="text-muted page-row">Image credit: <a href="http://www.flickr.com/photos/shaneglobal/" target="_blank">Shane Global Language Centres</a>, <a href="http://creativecommons.org/licenses/by/2.0/deed.en" target="_blank">Creative Commons 2.0 license</a></p>
                             <div class="course-list-header box clearfix">
-                                <div class="summary float-left"><strong>89</strong> offline courses | <strong>68</strong> online courses</div>
+                                 <div class="summary float-left"><strong><?php echo countcourse();?></strong> Available courses</div> 
                                 <div class="sort float-right">                                
                                     <label class="control-label float-left">Sort by: </label>
                                     <select class="sort-options form-control float-left">
@@ -237,7 +236,7 @@ include 'core.php';
                                     <div class="col-title col-lg-4 col-md-6"><strong>Course name</strong></div>
                                     <div class="col-meta col-lg-8 col-md-6">
                                         <div class="row">
-                                            <div class="col-start col-lg-3"><strong>Start date</strong></div>                                    
+                                            <!-- <div class="col-start col-lg-3"><strong>Start date</strong></div>                                     -->
                                             <div class="col-duration col-lg-2"><strong>Duration</strong></div>
                                             <div class="col-level col-lg-3"><strong>Level</strong></div>
                                             <div class="col-location col-lg-4"><strong>Location</strong></div>   
@@ -245,152 +244,14 @@ include 'core.php';
                                     </div><!--//col-meta-->    
                                 </div><!---//row-->                            
                             </div><!--//course-item-header-->                    
-                            <article class="course-item row-divider">   
-                                <div class="details row">
-                                    <div class="col-title col-lg-4 col-md-6 col-12"><a href="course-single.html">Web Design Foundation</a> <span class="badge badge-success">New</span></div>
-                                    <div class="col-meta col-lg-8 col-md-6 col-12">
-                                        <div class="row">
-                                            <div class="col-start col-md-3">10 Sep 2014</div>                                    
-                                            <div class="col-duration col-md-2">1 year</div>
-                                            <div class="col-level col-md-3">Beginner</div>
-                                            <div class="col-location col-md-4">Remote (Online)</div>   
-                                        </div>                                 
-                                    </div><!--//col-meta-->                           
-                                </div><!--//details-->
-                            </article><!--//course-item-->
-                            <article class="course-item row-divider">       
-                                <div class="details row">
-                                    <div class="col-title col-lg-4 col-md-6 col-12"><a href="course-single.html">Web Design Advanced</a>  <span class="badge badge-success">New</span></div>
-                                    <div class="col-meta col-lg-8 col-md-6 col-12">
-                                        <div class="row">
-                                            <div class="col-start col-md-3">20 Sep 2014</div>                                    
-                                            <div class="col-duration col-md-2">2 years</div>
-                                            <div class="col-level col-md-3">Advanced</div>
-                                            <div class="col-location col-md-4">College Green Campus</div>   
-                                        </div>                                 
-                                    </div><!--//col-meta-->                      
-                                </div><!--//details-->
-                            </article><!--//course-item-->
-                            <article class="course-item row-divider">   
-                                <div class="details row">
-                                    <div class="col-title col-lg-4 col-md-6 col-12"><a href="course-single.html">Web Development Foundation</a></div>
-                                    <div class="col-meta col-md-8 col-sm-6">
-                                        <div class="row">
-                                            <div class="col-start col-md-3">10 Sep 2014</div>                                    
-                                            <div class="col-duration col-md-2">1 year</div>
-                                            <div class="col-level col-md-3">Intermediate</div>
-                                            <div class="col-location col-md-4">Remote (Online)</div>   
-                                        </div>                                 
-                                    </div><!--//col-meta-->                           
-                                </div><!--//details-->
-                            </article><!--//course-item-->
-                            <article class="course-item row-divider">   
-                                <div class="details row">
-                                    <div class="col-title col-lg-4 col-md-6 col-12"><a href="course-single.html">Web Development Advanced</a></div>
-                                    <div class="col-meta col-lg-8 col-md-6 col-12">
-                                        <div class="row">
-                                            <div class="col-start col-lg-3 col-12">10 Sep 2014</div>                                    
-                                            <div class="col-duration col-lg-2 col-12">1 year</div>
-                                            <div class="col-level col-lg-3 col-12">Intermediate</div>
-                                            <div class="col-location col-lg-4 col-12">College Green Campus</div>   
-                                        </div>                                 
-                                    </div><!--//col-meta-->                           
-                                </div><!--//details-->
-                            </article><!--//course-item-->
+                            <?php
+
+                                echo listcourses();
+
+                            ?>
+                                                           
                             
-                            <article class="course-item row-divider">       
-                                <div class="details row">
-                                    <div class="col-title col-lg-4 col-md-6 col-12"><a href="course-single.html">Digital Marketing Foundation</a>  <span class="badge badge-warning">Full</span></div>
-                                    <div class="col-meta col-lg-8 col-md-6 col-12">
-                                        <div class="row">
-                                            <div class="col-start col-lg-3 col-12">25 Sep 2014</div>                                    
-                                            <div class="col-duration col-lg-2 col-12">1 year</div>
-                                            <div class="col-level col-lg-3 col-12">Intermediate</div>
-                                            <div class="col-location col-lg-4 col-12">Queen Square Campus</div>   
-                                        </div>                                 
-                                    </div><!--//col-meta-->                      
-                                </div><!--//details-->
-                            </article><!--//course-item-->
-                            <article class="course-item row-divider">       
-                                <div class="details row">
-                                    <div class="col-title col-lg-4 col-sm-6"><a href="course-single.html">Digital Marketing Foundation</a></div>
-                                    <div class="col-meta col-lg-8 col-md-6 col-12">
-                                        <div class="row">
-                                            <div class="col-start col-lg-3 col-12">25 Sep 2014</div>                                    
-                                            <div class="col-duration col-lg-2 col-12">1 year</div>
-                                            <div class="col-level col-lg-3 col-12">Intermediate</div>
-                                            <div class="col-location col-lg-4 col-12">Queen Square Campus</div>   
-                                        </div>                                 
-                                    </div><!--//col-meta-->                       
-                                </div><!--//details-->
-                            </article><!--//course-item-->
-                            <article class="course-item row-divider">       
-                                <div class="details row">
-                                    <div class="col-title col-lg-4 col-md-6 col-12"><a href="course-single.html">Digital Marketing Advanced</a></div>
-                                    <div class="col-meta col-lg-8 col-md-6 col-12">
-                                        <div class="row">
-                                            <div class="col-start col-lg-3 col-12">25 Sep 2014</div>                                    
-                                            <div class="col-duration col-lg-2 col-12">1 year</div>
-                                            <div class="col-level col-lg-3 col-12">Intermediate</div>
-                                            <div class="col-location col-lg-4 col-12">Queen Square Campus</div>   
-                                        </div>                                 
-                                    </div><!--//col-meta-->                        
-                                </div><!--//details-->
-                            </article><!--//course-item-->
-                            <article class="course-item row-divider">       
-                                <div class="details row">
-                                    <div class="col-title col-lg-4 col-md-6 col-12"><a href="course-single.html">Digital Marketing Advanced</a></div>
-                                    <div class="col-meta col-lg-8 col-md-6 col-12">
-                                        <div class="row">
-                                            <div class="col-start col-lg-3 col-12">25 Sep 2014</div>                                    
-                                            <div class="col-duration col-lg-2 col-12">1 year</div>
-                                            <div class="col-level col-lg-3 col-12">Intermediate</div>
-                                            <div class="col-location col-lg-4 col-12">Queen Square Campus</div>   
-                                        </div>                                 
-                                    </div><!--//col-meta-->                        
-                                </div><!--//details-->
-                            </article><!--//course-item-->
-                            <article class="course-item row-divider">       
-                                <div class="details row">
-                                    <div class="col-title col-lg-4 col-md-6 col-12"><a href="course-single.html">Digital Marketing Advanced</a></div>
-                                    <div class="col-meta col-lg-8 col-md-6 col-12">
-                                        <div class="row">
-                                            <div class="col-start col-lg-3 col-12">25 Sep 2014</div>                                    
-                                            <div class="col-duration col-lg-2 col-12">1 year</div>
-                                            <div class="col-level col-lg-3 col-12">Intermediate</div>
-                                            <div class="col-location col-lg-4 col-12">Queen Square Campus</div>   
-                                        </div>                                 
-                                    </div><!--//col-meta-->                        
-                                </div><!--//details-->
-                            </article><!--//course-item-->
-                            <article class="course-item row-divider">       
-                                <div class="details row">
-                                    <div class="col-title col-lg-4 col-md-6 col-12"><a href="course-single.html">Digital Marketing Advanced</a></div>
-                                    <div class="col-meta col-lg-8 col-md-6 col-12">
-                                        <div class="row">
-                                            <div class="col-start col-lg-3 col-12">20 Sep 2014</div>                                    
-                                            <div class="col-duration col-lg-2 col-12">2 years</div>
-                                            <div class="col-level col-lg-3 col-12">Advanced</div>
-                                            <div class="col-location col-lg-4 col-12">Queen Square Campus</div>   
-                                        </div>                                 
-                                    </div><!--//col-meta-->                        
-                                </div><!--//details-->
-                            </article><!--//course-item-->
-                            <article class="course-item row-divider">       
-                                <div class="details row">
-                                    <div class="col-title col-lg-4 col-md-6 col-12"><a href="course-single.html">Digital Marketing Advanced</a></div>
-                                    <div class="col-meta col-lg-8 col-md-6 col-12">
-                                        <div class="row">
-                                            <div class="col-start col-lg-3 col-12">20 Sep 2014</div>                                    
-                                            <div class="col-duration col-lg-2 col-12">2 years</div>
-                                            <div class="col-level col-lg-3 col-12">Advanced</div>
-                                            <div class="col-location col-lg-4 col-12">Queen Square Campus</div>   
-                                        </div>                                 
-                                    </div><!--//col-meta-->                        
-                                </div><!--//details-->
-                            </article><!--//course-item-->                                
-                            
-                            <nav class="pagination-container text-center">
+                            <!-- <nav class="pagination-container text-center">
 		                        <ul class="pagination">
 		                            <li class="page-item disabled">
 		                                <a class="page-link" href="courses.html#" arial-label="previous">
@@ -409,8 +270,8 @@ include 'core.php';
 		                                    <span class="sr-only">Next</span>
 		                                </a>
 		                            </li>
-		                        </ul><!--//pagination-->
-		                    </nav>
+		                        </ul><
+		                    </nav> -->
                             
                                               
                         </div><!--//courses-wrapper-->
@@ -438,11 +299,11 @@ include 'core.php';
                                         <div class="carousel-item item">
                                             <blockquote class="quote">
                                                 <i class="fa fa-quote-left"></i>
-                                                I’m very happy interdum eget ipsum. Nunc pulvinar ut nulla eget sollicitudin. In hac habitasse platea dictumst. Integer mattis varius ipsum, posuere posuere est porta vel. Integer metus ligula, blandit ut fermentum a, rhoncus in ligula. Duis luctus.
+                                                    Am pround and very excited to be a student of Halidas College of Technology
                                             </blockquote>                
                                             <div class="source">
-                                                <p class="people"><span class="name">Marissa Spencer</span><br><span class="title">Curabitur commodo</span></p>
-                                                <img class="profile" src="assets/images/testimonials/profile-1.png" alt="">
+                                                <p class="people"><span class="name">Blessed Amstrong</span><br><span class="title">Curabitur commodo</span></p>
+                                                <img class="profile" src="assets/images/testimonials/baby.png" alt="">
                                             </div>                               
                                         </div><!--//item-->
                                         <div class="carousel-item item">
@@ -458,11 +319,11 @@ include 'core.php';
                                         <div class="carousel-item item active">
                                             <blockquote class="quote">
                                                 <i class="fa fa-quote-left"></i>
-                                                I'm delighted commodo gravida ultrices. Sed massa leo, aliquet non velit eu, volutpat vulputate odio. Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse porttitor metus eros, ut fringilla nulla auctor a.
+                                                Am pround and very excited to be a student of Halidas College of Technology
                                             </blockquote>
                                             <div class="source">
-                                                <p class="people"><span class="name">Kate White</span><br><span class="title"> Gravida ultrices</span></p>
-                                                <img class="profile" src="assets/images/testimonials/profile-3.png" alt="">
+                                                <p class="people"><span class="name">Blessed Mensah</span><br><span class="title"> Main Campus</span></p>
+                                                <img class="profile" src="assets/images/testimonials/baby.png" alt="">
                                             </div>                 
                                         </div><!--//item-->
                                         
@@ -553,7 +414,7 @@ include 'core.php';
     <!-- *****CONFIGURE STYLE****** -->  
     <div class="config-wrapper d-none d-md-block">
         <div class="config-wrapper-inner">
-            <a id="config-trigger" class="config-trigger" href="courses.html#"><i class="fa fa-cog mx-auto"></i></a>
+            <!-- <a id="config-trigger" class="config-trigger" href="courses.html#"><i class="fa fa-cog mx-auto"></i></a> -->
             <div id="config-panel" class="config-panel">
                 <p>Choose Colour</p>
                 <ul id="color-options" class="list-unstyled list-inline">

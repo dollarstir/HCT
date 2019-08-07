@@ -1,3 +1,4 @@
+<?php include 'core.php';?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -333,25 +334,8 @@
                                     <div class="col-md-5 col-12 subject">
                                         <select class="form-control subject">
                                             <option>Choose a subject area</option>
-                                            <option>Accounting & Finance</option>
-                                            <option>Biological Sciences</option>
-                                            <option>Business Studies</option>
-                                            <option>Computer Science</option>
-                                            <option>Creative Arts & Media</option>
-                                            <option>Drama</option>
-                                            <option>Education</option>
-                                            <option>Engineering</option>
-                                            <option>Film Studies</option>
-                                            <option>Fitness Training</option>
-                                            <option>Hospitality</option>
-                                            <option>History</option>
-                                            <option>International Relations</option>
-                                            <option>Law</option>
-                                            <option>Mathematics</option>
-                                            <option>Music</option>
-                                            <option>Physics</option>
-                                            <option>Religion</option>
-                                            <option>Social Science</option>
+                                            
+                                           <?php echo cfinder(); ?>
                                         </select>
                                     </div> 
                                     <div class="col-md-7 col-12 keywords">
@@ -414,11 +398,11 @@
                                 <div class="carousel-inner">
                                     <div class="carousel-item item active">
                                         <blockquote class="quote">                                  
-                                            <p><i class="fas fa-quote-left"></i>I’m very happy interdum eget ipsum. Nunc pulvinar ut nulla eget sollicitudin. In hac habitasse platea dictumst. Integer mattis varius ipsum, posuere posuere est porta vel. Integer metus ligula, blandit ut fermentum a, rhoncus in ligula. Duis luctus.</p>
+                                            <p><i class="fas fa-quote-left"></i> Am pround and very excited to be a student of Halidas College of Technology</p>
                                         </blockquote>                
                                         <div class="source">
-                                            <p class="people"><span class="name">Marissa Spencer</span><br /><span class="title">Curabitur commodo</span></p>
-                                            <img class="profile" src="assets/images/testimonials/profile-1.png"  alt="" />
+                                            <p class="people"><span class="name">Blessed  Mensah</span><br /><span class="title">Main Campus</span></p>
+                                            <img class="profile" src="assets/images/testimonials/baby.png"  alt="" />
                                         </div>                               
                                     </div><!--//item-->
                                     <div class="carousel-item item">
